@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Code and data for: A Glucocorticoid-Like Imprint in Donor Control Hearts Can Confound Heart Failure Transcriptomics"
+version: "v0.5.1"
+date-released: 2026-10-19
+doi: 10.5281/zenodo.23469794
+repository-code: "https://github.com/wcs52113140123-pixel/donor-gc-imprint-hf"
+license: MIT
+authors:
+  - family-names: Ni
+    given-names: Jiayao
+    orcid: "https://orcid.org/0009-0003-8023-6987"
+    affiliation: "Division of Geriatric Nephrology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China"
+  - family-names: Zhang
+    given-names: Wanqiang
+    affiliation: "Sir Run Run Hospital, Nanjing Medical University, Nanjing, China"
+  - family-names: Zhang
+    given-names: Tao
+    orcid: "https://orcid.org/0000-0001-5154-7362"
+    affiliation: "Division of Geriatric Nephrology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China"
+keywords: [heart failure, transcriptomics, glucocorticoid, donor heart, confounding, single-nucleus RNA sequencing]

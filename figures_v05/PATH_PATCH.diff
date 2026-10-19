@@ -1,0 +1,187 @@
+--- original/fig1.py
++++ figures_v05/fig1.py
+@@ -15,11 +15,13 @@
+ from matplotlib.path import Path
+ from matplotlib.lines import Line2D
+ 
+-ART = "/home/weichangsheng/.claude-science/orgs/0c94fa16-d352-4bb2-aea7-036d58fb0866/artifacts/proj_a390b1853173"
+-STYLE = f"{ART}/1435598b-8859-4422-b134-22ae1596cfbb/vf7bedac7_jbts_style.py"
+-TAR_FI = f"{ART}/02bd3e4f-9569-4742-928b-da80df807f73/v0260b848_figure_inputs_v05.tar.gz"
+-TAR_PD = f"{ART}/3b8edf41-18e0-461b-a226-a51afa7fd942/v830b0368_figure_inputs_v05_perdonor.tar.gz"
+-XL = f"{ART}/c0cfb32e-1947-4f53-b7c5-3cf2180736a8/v948b3bf1_Supplemental_Tables_S1-S14.xlsx"
++import os  # v0.5 package: inputs resolved relative to this script (override with JBTS_INPUTS)
++HERE = os.path.dirname(os.path.abspath(__file__))
++INP = os.environ.get("JBTS_INPUTS", os.path.join(HERE, "inputs"))
++STYLE = os.path.join(HERE, "jbts_style.py")
++TAR_FI = os.path.join(INP, "figure_inputs_v05.tar.gz")
++TAR_PD = os.path.join(INP, "figure_inputs_v05_perdonor.tar.gz")
++XL = os.path.join(INP, "Supplemental_Tables_S1-S14.xlsx")
+ 
+ exec(open(STYLE).read())
+ FAM = apply_jbts_style()
+--- original/fig2.py
++++ figures_v05/fig2.py
+@@ -16,10 +16,12 @@
+ from matplotlib.font_manager import FontProperties
+ import matplotlib.patheffects as pe
+ 
+-ART = "/home/weichangsheng/.claude-science/orgs/0c94fa16-d352-4bb2-aea7-036d58fb0866/artifacts/proj_a390b1853173"
+-STYLE = f"{ART}/1435598b-8859-4422-b134-22ae1596cfbb/vf7bedac7_jbts_style.py"
+-TAR_FI = f"{ART}/02bd3e4f-9569-4742-928b-da80df807f73/v0260b848_figure_inputs_v05.tar.gz"
+-XL = f"{ART}/c0cfb32e-1947-4f53-b7c5-3cf2180736a8/v948b3bf1_Supplemental_Tables_S1-S14.xlsx"
++import os  # v0.5 package: inputs resolved relative to this script (override with JBTS_INPUTS)
++HERE = os.path.dirname(os.path.abspath(__file__))
++INP = os.environ.get("JBTS_INPUTS", os.path.join(HERE, "inputs"))
++STYLE = os.path.join(HERE, "jbts_style.py")
++TAR_FI = os.path.join(INP, "figure_inputs_v05.tar.gz")
++XL = os.path.join(INP, "Supplemental_Tables_S1-S14.xlsx")
+ 
+ exec(open(STYLE).read())
+ FAM = apply_jbts_style()
+--- original/fig3.py
++++ figures_v05/fig3.py
+@@ -9,11 +9,13 @@
+ from matplotlib.patches import Rectangle, FancyBboxPatch
+ from matplotlib.colors import to_rgb
+ 
+-ART = "/home/weichangsheng/.claude-science/orgs/0c94fa16-d352-4bb2-aea7-036d58fb0866/artifacts/proj_a390b1853173/"
+-STYLE = ART + "1435598b-8859-4422-b134-22ae1596cfbb/vf7bedac7_jbts_style.py"
+-TAR_FI = ART + "02bd3e4f-9569-4742-928b-da80df807f73/v0260b848_figure_inputs_v05.tar.gz"
+-TAR_PD = ART + "3b8edf41-18e0-461b-a226-a51afa7fd942/v830b0368_figure_inputs_v05_perdonor.tar.gz"
+-XLS = ART + "c0cfb32e-1947-4f53-b7c5-3cf2180736a8/v948b3bf1_Supplemental_Tables_S1-S14.xlsx"
++import os  # v0.5 package: inputs resolved relative to this script (override with JBTS_INPUTS)
++HERE = os.path.dirname(os.path.abspath(__file__))
++INP = os.environ.get("JBTS_INPUTS", os.path.join(HERE, "inputs"))
++STYLE = os.path.join(HERE, "jbts_style.py")
++TAR_FI = os.path.join(INP, "figure_inputs_v05.tar.gz")
++TAR_PD = os.path.join(INP, "figure_inputs_v05_perdonor.tar.gz")
++XLS = os.path.join(INP, "Supplemental_Tables_S1-S14.xlsx")
+ 
+ exec(open(STYLE).read())
+ FAM = apply_jbts_style()
+--- original/fig4.py
++++ figures_v05/fig4.py
+@@ -9,11 +9,13 @@
+ from matplotlib.patches import Rectangle, FancyBboxPatch
+ from matplotlib.colors import to_rgb
+ 
+-ART = "/home/weichangsheng/.claude-science/orgs/0c94fa16-d352-4bb2-aea7-036d58fb0866/artifacts/proj_a390b1853173/"
+-STYLE = ART + "1435598b-8859-4422-b134-22ae1596cfbb/vf7bedac7_jbts_style.py"
+-TAR_FI = ART + "02bd3e4f-9569-4742-928b-da80df807f73/v0260b848_figure_inputs_v05.tar.gz"
+-TAR_PD = ART + "3b8edf41-18e0-461b-a226-a51afa7fd942/v830b0368_figure_inputs_v05_perdonor.tar.gz"
+-XLS = ART + "c0cfb32e-1947-4f53-b7c5-3cf2180736a8/v948b3bf1_Supplemental_Tables_S1-S14.xlsx"
++import os  # v0.5 package: inputs resolved relative to this script (override with JBTS_INPUTS)
++HERE = os.path.dirname(os.path.abspath(__file__))
++INP = os.environ.get("JBTS_INPUTS", os.path.join(HERE, "inputs"))
++STYLE = os.path.join(HERE, "jbts_style.py")
++TAR_FI = os.path.join(INP, "figure_inputs_v05.tar.gz")
++TAR_PD = os.path.join(INP, "figure_inputs_v05_perdonor.tar.gz")
++XLS = os.path.join(INP, "Supplemental_Tables_S1-S14.xlsx")
+ 
+ exec(open(STYLE).read())
+ FAM = apply_jbts_style()
+--- original/fig5.py
++++ figures_v05/fig5.py
+@@ -11,11 +11,13 @@
+ from matplotlib.lines import Line2D
+ from scipy.stats import gaussian_kde
+ 
+-ART = "/home/weichangsheng/.claude-science/orgs/0c94fa16-d352-4bb2-aea7-036d58fb0866/artifacts/proj_a390b1853173"
+-STYLE = f"{ART}/1435598b-8859-4422-b134-22ae1596cfbb/vf7bedac7_jbts_style.py"
+-TAR_FI = f"{ART}/02bd3e4f-9569-4742-928b-da80df807f73/v0260b848_figure_inputs_v05.tar.gz"
+-TAR_PD = f"{ART}/3b8edf41-18e0-461b-a226-a51afa7fd942/v830b0368_figure_inputs_v05_perdonor.tar.gz"
+-XLP = f"{ART}/c0cfb32e-1947-4f53-b7c5-3cf2180736a8/v948b3bf1_Supplemental_Tables_S1-S14.xlsx"
++import os  # v0.5 package: inputs resolved relative to this script (override with JBTS_INPUTS)
++HERE = os.path.dirname(os.path.abspath(__file__))
++INP = os.environ.get("JBTS_INPUTS", os.path.join(HERE, "inputs"))
++STYLE = os.path.join(HERE, "jbts_style.py")
++TAR_FI = os.path.join(INP, "figure_inputs_v05.tar.gz")
++TAR_PD = os.path.join(INP, "figure_inputs_v05_perdonor.tar.gz")
++XLP = os.path.join(INP, "Supplemental_Tables_S1-S14.xlsx")
+ WORK = os.environ.get("FIG_DATA_DIR", "data")
+ for t in (TAR_FI, TAR_PD):
+     root = "figure_inputs_v05_perdonor" if "perdonor" in t else "figure_inputs_v05"
+--- original/fig6.py
++++ figures_v05/fig6.py
+@@ -10,14 +10,16 @@
+ from matplotlib.patches import Rectangle, FancyBboxPatch, FancyArrowPatch, Polygon
+ from matplotlib.lines import Line2D
+ 
+-ART = "/home/weichangsheng/.claude-science/orgs/0c94fa16-d352-4bb2-aea7-036d58fb0866/artifacts/proj_a390b1853173"
+-STYLE = f"{ART}/1435598b-8859-4422-b134-22ae1596cfbb/vf7bedac7_jbts_style.py"
+-TAR_FI = f"{ART}/02bd3e4f-9569-4742-928b-da80df807f73/v0260b848_figure_inputs_v05.tar.gz"
+-TAR_PD = f"{ART}/3b8edf41-18e0-461b-a226-a51afa7fd942/v830b0368_figure_inputs_v05_perdonor.tar.gz"
+-XLP = f"{ART}/c0cfb32e-1947-4f53-b7c5-3cf2180736a8/v948b3bf1_Supplemental_Tables_S1-S14.xlsx"
++import os  # v0.5 package: inputs resolved relative to this script (override with JBTS_INPUTS)
++HERE = os.path.dirname(os.path.abspath(__file__))
++INP = os.environ.get("JBTS_INPUTS", os.path.join(HERE, "inputs"))
++STYLE = os.path.join(HERE, "jbts_style.py")
++TAR_FI = os.path.join(INP, "figure_inputs_v05.tar.gz")
++TAR_PD = os.path.join(INP, "figure_inputs_v05_perdonor.tar.gz")
++XLP = os.path.join(INP, "Supplemental_Tables_S1-S14.xlsx")
+ # Per-donor z_ref for PDK4/TXNIP/FOXO3/SGK1: frozen v1.3 dump re-run on the server with DG extended by these 4 genes
+ # (server: 04_results/figure_inputs_v05/v13_rerun_lvad4/; all frozen outputs reproduced with max |diff| = 0, see verify_lvad4.csv)
+-GE_LVAD4 = f"{ART}/9ff1de16-2d8e-4fc7-8a33-c7a37bf2bb73/v1f300200_perdonor_gene_expression_GC8_clock10_lvad4.csv.gz"
++GE_LVAD4 = os.path.join(INP, "perdonor_gene_expression_GC8_clock10_lvad4.csv.gz")
+ WORK = os.environ.get("FIG_DATA_DIR", "data")
+ for t in (TAR_FI, TAR_PD):
+     root = "figure_inputs_v05_perdonor" if "perdonor" in t else "figure_inputs_v05"
+--- original/fig7.py
++++ figures_v05/fig7.py
+@@ -10,12 +10,14 @@
+ from matplotlib.patches import FancyBboxPatch, Rectangle, FancyArrowPatch, Polygon
+ from matplotlib.lines import Line2D
+ 
+-ART = "/home/weichangsheng/.claude-science/orgs/0c94fa16-d352-4bb2-aea7-036d58fb0866/artifacts/proj_a390b1853173"
+-STYLE = f"{ART}/1435598b-8859-4422-b134-22ae1596cfbb/vf7bedac7_jbts_style.py"
+-TAR_FI = f"{ART}/02bd3e4f-9569-4742-928b-da80df807f73/v0260b848_figure_inputs_v05.tar.gz"
+-TAR_PD = f"{ART}/3b8edf41-18e0-461b-a226-a51afa7fd942/v830b0368_figure_inputs_v05_perdonor.tar.gz"
+-SUPP = f"{ART}/c0cfb32e-1947-4f53-b7c5-3cf2180736a8/v948b3bf1_Supplemental_Tables_S1-S14.xlsx"
+-MANU = f"{ART}/8faba881-dd54-4dbc-bdf8-1e6e34d6a6ac/vc39525c4_Manuscript_JACC-BTS_v0.4_text.md"
++import os  # v0.5 package: inputs resolved relative to this script (override with JBTS_INPUTS)
++HERE = os.path.dirname(os.path.abspath(__file__))
++INP = os.environ.get("JBTS_INPUTS", os.path.join(HERE, "inputs"))
++STYLE = os.path.join(HERE, "jbts_style.py")
++TAR_FI = os.path.join(INP, "figure_inputs_v05.tar.gz")
++TAR_PD = os.path.join(INP, "figure_inputs_v05_perdonor.tar.gz")
++SUPP = os.path.join(INP, "Supplemental_Tables_S1-S14.xlsx")
++MANU = os.path.join(INP, "Manuscript_JACC-BTS_v0.4_text.md")
+ 
+ exec(open(STYLE).read())
+ apply_jbts_style()
+--- original/ci.py
++++ figures_v05/ci.py
+@@ -8,9 +8,11 @@
+ import matplotlib.pyplot as plt
+ from matplotlib.patches import FancyBboxPatch, Rectangle, FancyArrowPatch, Polygon, Wedge, Circle
+ 
+-ART = "/home/weichangsheng/.claude-science/orgs/0c94fa16-d352-4bb2-aea7-036d58fb0866/artifacts/proj_a390b1853173"
+-STYLE = f"{ART}/1435598b-8859-4422-b134-22ae1596cfbb/vf7bedac7_jbts_style.py"
+-MANU = f"{ART}/8faba881-dd54-4dbc-bdf8-1e6e34d6a6ac/vc39525c4_Manuscript_JACC-BTS_v0.4_text.md"
++import os  # v0.5 package: inputs resolved relative to this script (override with JBTS_INPUTS)
++HERE = os.path.dirname(os.path.abspath(__file__))
++INP = os.environ.get("JBTS_INPUTS", os.path.join(HERE, "inputs"))
++STYLE = os.path.join(HERE, "jbts_style.py")
++MANU = os.path.join(INP, "Manuscript_JACC-BTS_v0.4_text.md")
+ exec(open(STYLE).read())
+ apply_jbts_style()
+ MS = open(MANU, encoding="utf-8").read().replace("\u2212", "-")
+--- original/figS1.py
++++ figures_v05/figS1.py
+@@ -12,10 +12,12 @@
+ from matplotlib.textpath import TextPath
+ from matplotlib.font_manager import FontProperties
+ 
+-ART = "/home/weichangsheng/.claude-science/orgs/0c94fa16-d352-4bb2-aea7-036d58fb0866/artifacts/proj_a390b1853173"
+-STYLE = f"{ART}/1435598b-8859-4422-b134-22ae1596cfbb/vf7bedac7_jbts_style.py"
+-TAR_FI = f"{ART}/02bd3e4f-9569-4742-928b-da80df807f73/v0260b848_figure_inputs_v05.tar.gz"
+-SD04 = f"{ART}/0a421989-8d4d-46df-a105-af79dbc577f4/v326753c5_Source_data_v04.xlsx"
++import os  # v0.5 package: inputs resolved relative to this script (override with JBTS_INPUTS)
++HERE = os.path.dirname(os.path.abspath(__file__))
++INP = os.environ.get("JBTS_INPUTS", os.path.join(HERE, "inputs"))
++STYLE = os.path.join(HERE, "jbts_style.py")
++TAR_FI = os.path.join(INP, "figure_inputs_v05.tar.gz")
++SD04 = os.path.join(INP, "Source_data_v04.xlsx")
+ 
+ exec(open(STYLE).read())
+ apply_jbts_style()

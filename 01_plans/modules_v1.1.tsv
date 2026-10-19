@@ -1,0 +1,937 @@
+version	module	role	cell_context	tier	gene	source
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	ACVR1B	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	ANG	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	ANGPT1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	ANGPTL4	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	AREG	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	AXL	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	BEX3	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	BMP2	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	BMP6	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	C3	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CCL1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CCL13	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CCL16	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CCL2	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CCL20	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CCL24	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CCL26	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CCL3	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CCL4	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CCL5	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CCL7	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CCL8	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CD55	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CD9	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CSF1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CSF2	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CSF2RB	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CST4	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CTNNB1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CTSB	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CXCL1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CXCL10	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CXCL12	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CXCL16	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CXCL2	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CXCL3	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CXCL8	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	CXCR2	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	DKK1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	EDN1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	EGF	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	EGFR	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	EREG	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	ESM1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	ETS2	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	FAS	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	FGF1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	FGF2	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	FGF7	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	GDF15	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	GEM	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	GMFG	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	HGF	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	HMGB1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	ICAM1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	ICAM3	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IGF1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IGFBP1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IGFBP2	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IGFBP3	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IGFBP4	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IGFBP5	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IGFBP6	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IGFBP7	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IL10	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IL13	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IL15	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IL18	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IL1A	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IL1B	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IL2	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IL32	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IL6	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IL6ST	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IL7	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	INHA	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	IQGAP2	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	ITGA2	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	ITPKA	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	JUN	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	KITLG	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	LCP1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	MIF	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	MMP1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	MMP10	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	MMP12	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	MMP13	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	MMP14	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	MMP2	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	MMP3	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	MMP9	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	NAP1L4	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	NRG1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	PAPPA	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	PECAM1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	PGF	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	PIGF	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	PLAT	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	PLAU	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	PLAUR	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	PTBP1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	PTGER2	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	PTGES	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	RPS6KA5	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	SCAMP4	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	SELPLG	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	SEMA3F	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	SERPINB4	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	SERPINE1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	SERPINE2	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	SPP1	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	SPX	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	TIMP2	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	TNF	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	TNFRSF10C	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	TNFRSF11B	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	TNFRSF1A	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	TNFRSF1B	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	TUBGCP2	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	VEGFA	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	VEGFC	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	VGF	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	WNT16	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_SenMayo	target_burden	Endothelial;Fibroblast;Pericyte;SMC	PRIMARY|v1.0_carried	WNT2	MSigDB SAUL_SEN_MAYO; Saul 2022 Nat Commun PMID 35974106
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	ALDH1A3	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	AOPEP	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	CCN2	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	CCND1	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	CD44	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	CDKN1A	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	CDKN1C	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	CDKN2A	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	CDKN2B	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	CDKN2D	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	CITED2	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	CLTB	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	COL1A2	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	CREG1	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	CRYAB	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	CXCL14	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	CYP1B1	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	EIF2S2	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	ESM1	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	F3	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	FILIP1L	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	FN1	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	GSN	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	GUK1	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	HBS1L	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	HPS5	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	HSPA2	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	HTATIP2	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	IFI16	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	IFNG	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	IGFBP1	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	IGFBP2	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	IGFBP3	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	IGFBP4	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	IGFBP5	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	IGFBP6	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	IGFBP7	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	IGSF3	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	ING1	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	IRF5	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	IRF7	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	ISG15	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	MAP1LC3B	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	MAP2K3	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	MDM2	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	MMP1	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	NDN	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	NME2	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	NRG1	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	OPTN	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	PEA15	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	RAB13	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	RAB31	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	RAB5B	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	RABGGTA	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	RAC1	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	RBL2	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	RGL2	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	RHOB	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	RRAS	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	S100A11	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	SERPINB2	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	SERPINE1	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	SMPD1	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	SMURF2	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	SOD1	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	SPARC	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	STAT1	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	TES	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	TFAP2A	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	TGFB1I1	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	THBS1	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	TNFAIP2	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	TNFAIP3	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	TP53	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	TSPYL5	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	T_senescence_Fridman	target_burden	Endothelial;Fibroblast;Pericyte;SMC	sensitivity|v1.0_carried	VIM	MSigDB FRIDMAN_SENESCENCE_UP; PMID 18711403
+v1.1	V_dont_eat_me_evasion	target_evasion	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	CD47	Curated: CD47-QPCT/L (Schloesser 2023 J Cell Biol PMID 36459066); HLA-E (Pereira 2019 Nat Commun PMID 31160572); PD-L1 (Wang 2022 Nature PMID 36323784)
+v1.1	V_dont_eat_me_evasion	target_evasion	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	QPCTL	Curated: CD47-QPCT/L (Schloesser 2023 J Cell Biol PMID 36459066); HLA-E (Pereira 2019 Nat Commun PMID 31160572); PD-L1 (Wang 2022 Nature PMID 36323784)
+v1.1	V_dont_eat_me_evasion	target_evasion	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	QPCT	Curated: CD47-QPCT/L (Schloesser 2023 J Cell Biol PMID 36459066); HLA-E (Pereira 2019 Nat Commun PMID 31160572); PD-L1 (Wang 2022 Nature PMID 36323784)
+v1.1	V_dont_eat_me_evasion	target_evasion	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	CD24	Curated: CD47-QPCT/L (Schloesser 2023 J Cell Biol PMID 36459066); HLA-E (Pereira 2019 Nat Commun PMID 31160572); PD-L1 (Wang 2022 Nature PMID 36323784)
+v1.1	V_dont_eat_me_evasion	target_evasion	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	HLA-E	Curated: CD47-QPCT/L (Schloesser 2023 J Cell Biol PMID 36459066); HLA-E (Pereira 2019 Nat Commun PMID 31160572); PD-L1 (Wang 2022 Nature PMID 36323784)
+v1.1	V_dont_eat_me_evasion	target_evasion	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	CD274	Curated: CD47-QPCT/L (Schloesser 2023 J Cell Biol PMID 36459066); HLA-E (Pereira 2019 Nat Commun PMID 31160572); PD-L1 (Wang 2022 Nature PMID 36323784)
+v1.1	V_dont_eat_me_evasion	target_evasion	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	LGALS9	Curated: CD47-QPCT/L (Schloesser 2023 J Cell Biol PMID 36459066); HLA-E (Pereira 2019 Nat Commun PMID 31160572); PD-L1 (Wang 2022 Nature PMID 36323784)
+v1.1	V_dont_eat_me_evasion	target_evasion	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	PVR	Curated: CD47-QPCT/L (Schloesser 2023 J Cell Biol PMID 36459066); HLA-E (Pereira 2019 Nat Commun PMID 31160572); PD-L1 (Wang 2022 Nature PMID 36323784)
+v1.1	V_dont_eat_me_evasion	target_evasion	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	NECTIN2	Curated: CD47-QPCT/L (Schloesser 2023 J Cell Biol PMID 36459066); HLA-E (Pereira 2019 Nat Commun PMID 31160572); PD-L1 (Wang 2022 Nature PMID 36323784)
+v1.1	I_immune_visibility	target_visibility	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	MICA	Curated NKG2D ligands/death receptors/MHC-I (Sagiv 2016 Aging PMID 26878797; Prata 2018 Semin Immunol PMID 31088710)
+v1.1	I_immune_visibility	target_visibility	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	MICB	Curated NKG2D ligands/death receptors/MHC-I (Sagiv 2016 Aging PMID 26878797; Prata 2018 Semin Immunol PMID 31088710)
+v1.1	I_immune_visibility	target_visibility	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	ULBP1	Curated NKG2D ligands/death receptors/MHC-I (Sagiv 2016 Aging PMID 26878797; Prata 2018 Semin Immunol PMID 31088710)
+v1.1	I_immune_visibility	target_visibility	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	ULBP2	Curated NKG2D ligands/death receptors/MHC-I (Sagiv 2016 Aging PMID 26878797; Prata 2018 Semin Immunol PMID 31088710)
+v1.1	I_immune_visibility	target_visibility	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	ULBP3	Curated NKG2D ligands/death receptors/MHC-I (Sagiv 2016 Aging PMID 26878797; Prata 2018 Semin Immunol PMID 31088710)
+v1.1	I_immune_visibility	target_visibility	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	RAET1E	Curated NKG2D ligands/death receptors/MHC-I (Sagiv 2016 Aging PMID 26878797; Prata 2018 Semin Immunol PMID 31088710)
+v1.1	I_immune_visibility	target_visibility	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	RAET1L	Curated NKG2D ligands/death receptors/MHC-I (Sagiv 2016 Aging PMID 26878797; Prata 2018 Semin Immunol PMID 31088710)
+v1.1	I_immune_visibility	target_visibility	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	FAS	Curated NKG2D ligands/death receptors/MHC-I (Sagiv 2016 Aging PMID 26878797; Prata 2018 Semin Immunol PMID 31088710)
+v1.1	I_immune_visibility	target_visibility	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	TNFRSF10A	Curated NKG2D ligands/death receptors/MHC-I (Sagiv 2016 Aging PMID 26878797; Prata 2018 Semin Immunol PMID 31088710)
+v1.1	I_immune_visibility	target_visibility	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	TNFRSF10B	Curated NKG2D ligands/death receptors/MHC-I (Sagiv 2016 Aging PMID 26878797; Prata 2018 Semin Immunol PMID 31088710)
+v1.1	I_immune_visibility	target_visibility	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	ICAM1	Curated NKG2D ligands/death receptors/MHC-I (Sagiv 2016 Aging PMID 26878797; Prata 2018 Semin Immunol PMID 31088710)
+v1.1	I_immune_visibility	target_visibility	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	B2M	Curated NKG2D ligands/death receptors/MHC-I (Sagiv 2016 Aging PMID 26878797; Prata 2018 Semin Immunol PMID 31088710)
+v1.1	I_immune_visibility	target_visibility	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	HLA-A	Curated NKG2D ligands/death receptors/MHC-I (Sagiv 2016 Aging PMID 26878797; Prata 2018 Semin Immunol PMID 31088710)
+v1.1	I_immune_visibility	target_visibility	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	HLA-B	Curated NKG2D ligands/death receptors/MHC-I (Sagiv 2016 Aging PMID 26878797; Prata 2018 Semin Immunol PMID 31088710)
+v1.1	I_immune_visibility	target_visibility	Endothelial;Fibroblast;Pericyte;SMC	secondary|v1.0_carried	HLA-C	Curated NKG2D ligands/death receptors/MHC-I (Sagiv 2016 Aging PMID 26878797; Prata 2018 Semin Immunol PMID 31088710)
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	ABCA7	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	ADGRB1	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	ALOX15	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	ANXA1	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	AXL	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	BECN1	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	C2	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	C3	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	C4A	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	C4B	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	CCL2	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	CCR2	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	CD300LF	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	CD36	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	FCN1	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	FCN2	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	FCN3	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	GAS6	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	HMGB1	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	ITGAV	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	ITGB3	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	JMJD6	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	LRP1	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	MARCO	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	MEGF10	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	MERTK	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	MFGE8	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	NR1H3	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	PEAR1	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	RAC1	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	RARA	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	SCARB1	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	SPG11	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	TGM2	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	THBS1	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	TIMD4	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	TREM2	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	TREX1	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	TYRO3	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	TYROBP	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	XKR4	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	XKR6	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	XKR7	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_apoptotic_cell_clearance	effector_clearance	Macrophage;Monocyte	PRIMARY|v1.0_carried	XKR8	MSigDB GOBP_APOPTOTIC_CELL_CLEARANCE; GO:0043277
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ABCA1	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ABCA7	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ADGRB1	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AIF1	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ALOX15	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ANO6	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	APPL2	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ARHGAP12	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ARHGAP25	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	BECN1	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	BIN2	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	C3	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CD300A	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CD36	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CDC42	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CLCN2	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CLCN3	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	DOCK1	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ELMO1	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	F2RL1	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	FCER1G	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	FCGR1A	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	FCGR2B	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	GATA2	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	GSN	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	GULP1	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	HAVCR1	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ITGA2	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ITGAM	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ITGB2	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	MARCO	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	MEGF10	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	MSR1	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	MYH9	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	NCKAP1L	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	PLCG2	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	RAB31	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	RAC1	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	SH3BP1	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	STAP1	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	THBS1	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	TIMD4	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	TREM2	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	VAMP7	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	XKR4	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	XKR6	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	XKR7	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_phagocytosis_engulfment	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	XKR8	MSigDB GOBP_PHAGOCYTOSIS_ENGULFMENT; GO:0006911
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ABCA2	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ABCB9	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ACP2	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ACP5	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AGA	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AP1B1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AP1G1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AP1M1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AP1M2	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AP1S1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AP1S2	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AP1S3	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AP3B1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AP3B2	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AP3D1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AP3M1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AP3M2	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AP3S1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AP3S2	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AP4B1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AP4E1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AP4M1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AP4S1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ARSA	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ARSB	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ARSG	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ASAH1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ATP6AP1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ATP6V0A1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ATP6V0A2	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ATP6V0A4	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ATP6V0B	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ATP6V0C	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ATP6V0D1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ATP6V0D2	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ATP6V1H	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CD164	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CD63	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CD68	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CLN3	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CLN5	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CLTA	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CLTB	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CLTC	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CLTCL1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CTNS	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CTSA	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CTSB	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CTSC	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CTSD	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CTSE	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CTSF	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CTSG	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CTSH	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CTSK	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CTSL	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CTSO	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CTSS	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CTSV	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CTSW	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CTSZ	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	DNASE2	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	DNASE2B	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ENTPD4	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	FUCA1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	GAA	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	GALC	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	GALNS	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	GBA1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	GGA1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	GGA2	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	GGA3	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	GLA	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	GLB1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	GM2A	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	GNPTAB	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	GNPTG	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	GNS	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	GUSB	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	HEXA	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	HEXB	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	HGSNAT	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	HYAL1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	IDS	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	IDUA	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	IGF2R	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	LAMP1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	LAMP2	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	LAMP3	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	LAPTM4A	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	LAPTM4B	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	LAPTM5	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	LGMN	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	LIPA	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	M6PR	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	MAN2B1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	MANBA	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	MCOLN1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	MFSD8	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	NAGA	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	NAGLU	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	NAGPA	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	NAPSA	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	NEU1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	NPC1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	NPC2	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	PLA2G15	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	PPT1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	PPT2	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	PSAP	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	PSAPL1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	SCARB2	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	SGSH	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	SLC11A1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	SLC11A2	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	SLC17A5	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	SMPD1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	SORT1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	SUMF1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	TCIRG1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_lysosome	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	TPP1	MSigDB KEGG_LYSOSOME; hsa04142
+v1.1	E_efferocytosis_receptors	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	MERTK	Curated efferocytosis receptors/bridges (Doran 2020 Nat Rev Immunol PMID 31822793)
+v1.1	E_efferocytosis_receptors	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	AXL	Curated efferocytosis receptors/bridges (Doran 2020 Nat Rev Immunol PMID 31822793)
+v1.1	E_efferocytosis_receptors	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	TYRO3	Curated efferocytosis receptors/bridges (Doran 2020 Nat Rev Immunol PMID 31822793)
+v1.1	E_efferocytosis_receptors	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	TIMD4	Curated efferocytosis receptors/bridges (Doran 2020 Nat Rev Immunol PMID 31822793)
+v1.1	E_efferocytosis_receptors	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	MFGE8	Curated efferocytosis receptors/bridges (Doran 2020 Nat Rev Immunol PMID 31822793)
+v1.1	E_efferocytosis_receptors	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	GAS6	Curated efferocytosis receptors/bridges (Doran 2020 Nat Rev Immunol PMID 31822793)
+v1.1	E_efferocytosis_receptors	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	PROS1	Curated efferocytosis receptors/bridges (Doran 2020 Nat Rev Immunol PMID 31822793)
+v1.1	E_efferocytosis_receptors	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CD36	Curated efferocytosis receptors/bridges (Doran 2020 Nat Rev Immunol PMID 31822793)
+v1.1	E_efferocytosis_receptors	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	LRP1	Curated efferocytosis receptors/bridges (Doran 2020 Nat Rev Immunol PMID 31822793)
+v1.1	E_efferocytosis_receptors	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	STAB1	Curated efferocytosis receptors/bridges (Doran 2020 Nat Rev Immunol PMID 31822793)
+v1.1	E_efferocytosis_receptors	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ITGB5	Curated efferocytosis receptors/bridges (Doran 2020 Nat Rev Immunol PMID 31822793)
+v1.1	E_efferocytosis_receptors	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	ITGAV	Curated efferocytosis receptors/bridges (Doran 2020 Nat Rev Immunol PMID 31822793)
+v1.1	E_efferocytosis_receptors	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	MARCO	Curated efferocytosis receptors/bridges (Doran 2020 Nat Rev Immunol PMID 31822793)
+v1.1	E_efferocytosis_receptors	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	CD163	Curated efferocytosis receptors/bridges (Doran 2020 Nat Rev Immunol PMID 31822793)
+v1.1	E_efferocytosis_receptors	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	C1QA	Curated efferocytosis receptors/bridges (Doran 2020 Nat Rev Immunol PMID 31822793)
+v1.1	E_efferocytosis_receptors	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	C1QB	Curated efferocytosis receptors/bridges (Doran 2020 Nat Rev Immunol PMID 31822793)
+v1.1	E_efferocytosis_receptors	effector_clearance	Macrophage;Monocyte	sensitivity|v1.0_carried	C1QC	Curated efferocytosis receptors/bridges (Doran 2020 Nat Rev Immunol PMID 31822793)
+v1.1	E_myeloid_inhibitory_checkpoint	effector_checkpoint	Macrophage;Monocyte	secondary|v1.0_carried	SIRPA	Curated: CD47-SIRPA; HLA-LILRB1; CD24-SIGLEC10 (Barkal 2019 Nature PMID 31367043)
+v1.1	E_myeloid_inhibitory_checkpoint	effector_checkpoint	Macrophage;Monocyte	secondary|v1.0_carried	LILRB1	Curated: CD47-SIRPA; HLA-LILRB1; CD24-SIGLEC10 (Barkal 2019 Nature PMID 31367043)
+v1.1	E_myeloid_inhibitory_checkpoint	effector_checkpoint	Macrophage;Monocyte	secondary|v1.0_carried	LILRB2	Curated: CD47-SIRPA; HLA-LILRB1; CD24-SIGLEC10 (Barkal 2019 Nature PMID 31367043)
+v1.1	E_myeloid_inhibitory_checkpoint	effector_checkpoint	Macrophage;Monocyte	secondary|v1.0_carried	SIGLEC10	Curated: CD47-SIRPA; HLA-LILRB1; CD24-SIGLEC10 (Barkal 2019 Nature PMID 31367043)
+v1.1	C_cytotoxic_NK_CD8	effector_cytotoxic	NK;CD8_T;Lymphoid_pooled	exploratory|v1.0_carried	NKG7	Curated cytotoxicity score (standard scRNA marker set)
+v1.1	C_cytotoxic_NK_CD8	effector_cytotoxic	NK;CD8_T;Lymphoid_pooled	exploratory|v1.0_carried	GNLY	Curated cytotoxicity score (standard scRNA marker set)
+v1.1	C_cytotoxic_NK_CD8	effector_cytotoxic	NK;CD8_T;Lymphoid_pooled	exploratory|v1.0_carried	PRF1	Curated cytotoxicity score (standard scRNA marker set)
+v1.1	C_cytotoxic_NK_CD8	effector_cytotoxic	NK;CD8_T;Lymphoid_pooled	exploratory|v1.0_carried	GZMA	Curated cytotoxicity score (standard scRNA marker set)
+v1.1	C_cytotoxic_NK_CD8	effector_cytotoxic	NK;CD8_T;Lymphoid_pooled	exploratory|v1.0_carried	GZMB	Curated cytotoxicity score (standard scRNA marker set)
+v1.1	C_cytotoxic_NK_CD8	effector_cytotoxic	NK;CD8_T;Lymphoid_pooled	exploratory|v1.0_carried	GZMH	Curated cytotoxicity score (standard scRNA marker set)
+v1.1	C_cytotoxic_NK_CD8	effector_cytotoxic	NK;CD8_T;Lymphoid_pooled	exploratory|v1.0_carried	CTSW	Curated cytotoxicity score (standard scRNA marker set)
+v1.1	C_cytotoxic_NK_CD8	effector_cytotoxic	NK;CD8_T;Lymphoid_pooled	exploratory|v1.0_carried	KLRD1	Curated cytotoxicity score (standard scRNA marker set)
+v1.1	C_cytotoxic_NK_CD8	effector_cytotoxic	NK;CD8_T;Lymphoid_pooled	exploratory|v1.0_carried	KLRK1	Curated cytotoxicity score (standard scRNA marker set)
+v1.1	C_cytotoxic_NK_CD8	effector_cytotoxic	NK;CD8_T;Lymphoid_pooled	exploratory|v1.0_carried	CST7	Curated cytotoxicity score (standard scRNA marker set)
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	ABCA1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	ABI1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	ACVR1B	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	ACVR2A	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	ADGRE1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	ADM	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	ADORA2B	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	ADRM1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	AHR	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	APLNR	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	AQP9	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	ATP2A2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	ATP2B1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	ATP2C1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	AXL	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	BDKRB1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	BEST1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	BST2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	BTG2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	C3AR1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	C5AR1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CALCRL	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CCL17	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CCL2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CCL20	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CCL22	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CCL24	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CCL5	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CCL7	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CCR7	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CCRL2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CD14	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CD40	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CD48	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CD55	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CD69	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CD70	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CD82	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CDKN1A	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CHST2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CLEC5A	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CMKLR1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CSF1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CSF3	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CSF3R	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CX3CL1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CXCL10	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CXCL11	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CXCL6	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CXCL8	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CXCL9	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CXCR6	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	CYBB	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	DCBLD2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	EBI3	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	EDN1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	EIF2AK2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	EMP3	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	EREG	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	F3	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	FFAR2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	FPR1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	FZD5	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	GABBR1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	GCH1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	GNA15	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	GNAI3	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	GP1BA	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	GPC3	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	GPR132	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	GPR183	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	HAS2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	HBEGF	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	HIF1A	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	HPN	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	HRH1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	ICAM1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	ICAM4	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	ICOSLG	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IFITM1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IFNAR1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IFNGR2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IL10	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IL10RA	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IL12B	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IL15	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IL15RA	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IL18	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IL18R1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IL18RAP	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IL1A	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IL1B	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IL1R1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IL2RB	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IL4R	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IL6	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IL7R	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	INHBA	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IRAK2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IRF1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	IRF7	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	ITGA5	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	ITGB3	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	ITGB8	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	KCNA3	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	KCNJ2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	KCNMB2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	KIF1B	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	KLF6	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	LAMP3	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	LCK	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	LCP2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	LDLR	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	LIF	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	LPAR1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	LTA	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	LY6E	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	LYN	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	MARCO	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	MEFV	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	MEP1A	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	MET	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	MMP14	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	MSR1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	MXD1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	MYC	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	NAMPT	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	NDP	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	NFKB1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	NFKBIA	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	NLRP3	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	NMI	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	NMUR1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	NOD2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	NPFFR2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	OLR1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	OPRK1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	OSM	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	OSMR	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	P2RX4	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	P2RX7	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	P2RY2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	PCDH7	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	PDE4B	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	PDPN	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	PIK3R5	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	PLAUR	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	PROK2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	PSEN1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	PTAFR	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	PTGER2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	PTGER4	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	PTGIR	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	PTPRE	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	PVR	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	RAF1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	RASGRP1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	RELA	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	RGS1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	RGS16	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	RHOG	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	RIPK2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	RNF144B	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	ROS1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	RTP4	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	SCARF1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	SCN1B	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	SELE	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	SELENOS	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	SELL	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	SEMA4D	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	SERPINE1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	SGMS2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	SLAMF1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	SLC11A2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	SLC1A2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	SLC28A2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	SLC31A1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	SLC31A2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	SLC4A4	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	SLC7A1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	SLC7A2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	SPHK1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	SRI	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	STAB1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	TACR1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	TACR3	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	TAPBP	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	TIMP1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	TLR1	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	TLR2	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	TLR3	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	TNFAIP6	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	TNFRSF1B	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	TNFRSF9	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	TNFSF10	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	TNFSF15	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	TNFSF9	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	TPBG	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_inflammation_hallmark	adjustment	all	adjustment|v1.0_carried	VIP	MSigDB HALLMARK_INFLAMMATORY_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	ADAR	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	APOL6	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	ARID5B	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	ARL4A	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	AUTS2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	B2M	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	BANK1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	BATF2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	BPGM	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	BST2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	BTG1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	C1R	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	C1S	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CASP1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CASP3	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CASP4	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CASP7	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CASP8	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CCL2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CCL5	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CCL7	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CD274	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CD38	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CD40	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CD69	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CD74	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CD86	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CDKN1A	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CFB	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CFH	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CIITA	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CMKLR1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CMPK2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CMTR1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CSF2RB	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CXCL10	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CXCL11	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	CXCL9	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	DDX60	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	DHX58	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	EIF2AK2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	EIF4E3	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	EPSTI1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	FAS	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	FCGR1A	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	FGL2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	FPR1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	GBP4	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	GBP6	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	GCH1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	GPR18	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	GZMA	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	HELZ2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	HERC6	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	HIF1A	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	HLA-A	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	HLA-B	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	HLA-DMA	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	HLA-DQA1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	HLA-DRB1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	HLA-G	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	ICAM1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IDO1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IFI27	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IFI30	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IFI35	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IFI44	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IFI44L	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IFIH1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IFIT1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IFIT2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IFIT3	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IFITM2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IFITM3	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IFNAR2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IL10RA	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IL15	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IL15RA	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IL18BP	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IL2RB	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IL4R	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IL6	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IL7	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IRF1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IRF2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IRF4	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IRF5	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IRF7	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IRF8	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	IRF9	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	ISG15	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	ISG20	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	ISOC1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	ITGB7	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	JAK2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	KLRK1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	LAP3	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	LATS2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	LCP2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	LGALS3BP	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	LY6E	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	LYSMD2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	MARCHF1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	MT2A	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	MTHFD2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	MVP	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	MX1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	MX2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	MYD88	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	NAMPT	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	NCOA3	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	NFKB1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	NFKBIA	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	NLRC5	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	NMI	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	NOD1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	NUP93	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	OAS2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	OAS3	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	OASL	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	OGFR	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	P2RY14	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PARP12	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PARP14	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PDE4B	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PELI1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PFKP	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PIM1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PLA2G4A	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PLSCR1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PML	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PNP	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PNPT1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PSMA2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PSMA3	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PSMB10	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PSMB2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PSMB8	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PSMB9	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PSME1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PSME2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PTGS2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PTPN1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PTPN2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	PTPN6	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	RAPGEF6	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	RBCK1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	RIGI	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	RIPK1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	RIPK2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	RNF213	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	RNF31	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	RSAD2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	RTP4	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	SAMD9L	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	SAMHD1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	SECTM1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	SELP	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	SERPING1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	SLAMF7	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	SLC25A28	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	SOCS1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	SOCS3	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	SOD2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	SP110	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	SPPL2A	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	SRI	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	SSPN	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	ST3GAL5	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	ST8SIA4	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	STAT1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	STAT2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	STAT3	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	STAT4	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	TAP1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	TAPBP	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	TDRD7	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	TMT1B	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	TNFAIP2	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	TNFAIP3	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	TNFAIP6	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	TNFSF10	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	TOR1B	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	TRAFD1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	TRIM14	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	TRIM21	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	TRIM25	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	TRIM26	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	TXNIP	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	UBE2L6	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	UPP1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	USP18	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	VAMP5	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	VAMP8	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	VCAM1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	WARS1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	XAF1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	XCL1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	ZBP1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	ADJ_IFNG_hallmark	adjustment	all	adjustment|v1.0_carried	ZNFX1	MSigDB HALLMARK_INTERFERON_GAMMA_RESPONSE; PMID 26771021
+v1.1	RES_EFF_core	E	myeloid	primary_v1.1	C1QA	discovery-selected: literature pool, down p<0.05 in SCP3342 HFpEF AND GSE290367 DCM, logCPM>=3
+v1.1	RES_EFF_core	E	myeloid	primary_v1.1	C1QB	discovery-selected: literature pool, down p<0.05 in SCP3342 HFpEF AND GSE290367 DCM, logCPM>=3
+v1.1	RES_EFF_core	E	myeloid	primary_v1.1	C1QC	discovery-selected: literature pool, down p<0.05 in SCP3342 HFpEF AND GSE290367 DCM, logCPM>=3
+v1.1	RES_EFF_core	E	myeloid	primary_v1.1	CD163	discovery-selected: literature pool, down p<0.05 in SCP3342 HFpEF AND GSE290367 DCM, logCPM>=3
+v1.1	RES_EFF_core	E	myeloid	primary_v1.1	F13A1	discovery-selected: literature pool, down p<0.05 in SCP3342 HFpEF AND GSE290367 DCM, logCPM>=3
+v1.1	RES_EFF_core	E	myeloid	primary_v1.1	LRP1	discovery-selected: literature pool, down p<0.05 in SCP3342 HFpEF AND GSE290367 DCM, logCPM>=3
+v1.1	RES_EFF_core	E	myeloid	primary_v1.1	LYVE1	discovery-selected: literature pool, down p<0.05 in SCP3342 HFpEF AND GSE290367 DCM, logCPM>=3
+v1.1	RES_EFF_core	E	myeloid	primary_v1.1	MARCO	discovery-selected: literature pool, down p<0.05 in SCP3342 HFpEF AND GSE290367 DCM, logCPM>=3
+v1.1	RES_EFF_core	E	myeloid	primary_v1.1	MERTK	discovery-selected: literature pool, down p<0.05 in SCP3342 HFpEF AND GSE290367 DCM, logCPM>=3
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	AXL	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	C1QA	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	C1QB	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	C1QC	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	CD163	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	CD163L1	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	CD209	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	CD36	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	COLEC12	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	F13A1	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	FCGR2B	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	FOLR2	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	GAS6	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	ITGAV	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	ITGB5	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	LILRB5	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	LRP1	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	LYVE1	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	MAF	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	MARCO	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	MERTK	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	MFGE8	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	MRC1	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	PROS1	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	RNASE1	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	SCARB1	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	SELENOP	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	SIGLEC1	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	SLC40A1	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	STAB1	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	TIMD4	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	RES_EFF_lit	E	myeloid	sensitivity_v1.1	TYRO3	literature pool (efferocytosis receptors v1.0; Dick 2019 TLF; human cardiac LYVE1hi resident), no selection
+v1.1	MHCII_core	E	myeloid	coprimary_v1.1	HLA-DRA	MHC class II antigen presentation, fixed literature list
+v1.1	MHCII_core	E	myeloid	coprimary_v1.1	HLA-DRB1	MHC class II antigen presentation, fixed literature list
+v1.1	MHCII_core	E	myeloid	coprimary_v1.1	HLA-DPA1	MHC class II antigen presentation, fixed literature list
+v1.1	MHCII_core	E	myeloid	coprimary_v1.1	HLA-DPB1	MHC class II antigen presentation, fixed literature list
+v1.1	MHCII_core	E	myeloid	coprimary_v1.1	HLA-DQA1	MHC class II antigen presentation, fixed literature list
+v1.1	MHCII_core	E	myeloid	coprimary_v1.1	HLA-DQB1	MHC class II antigen presentation, fixed literature list
+v1.1	MHCII_core	E	myeloid	coprimary_v1.1	HLA-DMA	MHC class II antigen presentation, fixed literature list
+v1.1	MHCII_core	E	myeloid	coprimary_v1.1	HLA-DMB	MHC class II antigen presentation, fixed literature list
+v1.1	MHCII_core	E	myeloid	coprimary_v1.1	CD74	MHC class II antigen presentation, fixed literature list
+v1.1	MHCII_core	E	myeloid	coprimary_v1.1	CIITA	MHC class II antigen presentation, fixed literature list
+v1.1	ISG_IFN	A	myeloid	exploratory_v1.1	CXCL9	interferon-stimulated genes, fixed list; inconsistent in discovery -> exploratory
+v1.1	ISG_IFN	A	myeloid	exploratory_v1.1	CXCL10	interferon-stimulated genes, fixed list; inconsistent in discovery -> exploratory
+v1.1	ISG_IFN	A	myeloid	exploratory_v1.1	GBP1	interferon-stimulated genes, fixed list; inconsistent in discovery -> exploratory
+v1.1	ISG_IFN	A	myeloid	exploratory_v1.1	GBP2	interferon-stimulated genes, fixed list; inconsistent in discovery -> exploratory
+v1.1	ISG_IFN	A	myeloid	exploratory_v1.1	GBP5	interferon-stimulated genes, fixed list; inconsistent in discovery -> exploratory
+v1.1	ISG_IFN	A	myeloid	exploratory_v1.1	STAT1	interferon-stimulated genes, fixed list; inconsistent in discovery -> exploratory
+v1.1	ISG_IFN	A	myeloid	exploratory_v1.1	IRF1	interferon-stimulated genes, fixed list; inconsistent in discovery -> exploratory
+v1.1	ISG_IFN	A	myeloid	exploratory_v1.1	IDO1	interferon-stimulated genes, fixed list; inconsistent in discovery -> exploratory
+v1.1	MAC_PAN_ID	ADJ	myeloid	adjustment_v1.1	AIF1	pan-macrophage identity; rule |beta|<=1 in all discovery contrasts; for bulk deconvolution/identity adjustment
+v1.1	MAC_PAN_ID	ADJ	myeloid	adjustment_v1.1	CD14	pan-macrophage identity; rule |beta|<=1 in all discovery contrasts; for bulk deconvolution/identity adjustment
+v1.1	MAC_PAN_ID	ADJ	myeloid	adjustment_v1.1	CD68	pan-macrophage identity; rule |beta|<=1 in all discovery contrasts; for bulk deconvolution/identity adjustment
+v1.1	MAC_PAN_ID	ADJ	myeloid	adjustment_v1.1	CYBB	pan-macrophage identity; rule |beta|<=1 in all discovery contrasts; for bulk deconvolution/identity adjustment
+v1.1	MAC_PAN_ID	ADJ	myeloid	adjustment_v1.1	FCGR1A	pan-macrophage identity; rule |beta|<=1 in all discovery contrasts; for bulk deconvolution/identity adjustment
+v1.1	MAC_PAN_ID	ADJ	myeloid	adjustment_v1.1	MS4A6A	pan-macrophage identity; rule |beta|<=1 in all discovery contrasts; for bulk deconvolution/identity adjustment
+v1.1	MAC_PAN_ID	ADJ	myeloid	adjustment_v1.1	SPI1	pan-macrophage identity; rule |beta|<=1 in all discovery contrasts; for bulk deconvolution/identity adjustment
+v1.1	MAC_PAN_ID	ADJ	myeloid	adjustment_v1.1	TYROBP	pan-macrophage identity; rule |beta|<=1 in all discovery contrasts; for bulk deconvolution/identity adjustment

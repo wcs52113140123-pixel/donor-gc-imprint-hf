@@ -1,0 +1,255 @@
+{
+ "A3": {
+  "n_ok_adjusted": 7,
+  "n_ok_base": 7,
+  "PASS": true,
+  "table": [
+   {
+    "gene": "NPPA",
+    "expected": 1,
+    "model": "base",
+    "beta": 1.2084449823261971,
+    "fdr": 2.6960808396913507e-15,
+    "ok": true
+   },
+   {
+    "gene": "NPPA",
+    "expected": 1,
+    "model": "GC3_adjusted",
+    "beta": 1.1952344281662541,
+    "fdr": 1.4147209379788695e-11,
+    "ok": true
+   },
+   {
+    "gene": "NPPB",
+    "expected": 1,
+    "model": "base",
+    "beta": 0.7078408279349384,
+    "fdr": 1.2326795604656496e-07,
+    "ok": true
+   },
+   {
+    "gene": "NPPB",
+    "expected": 1,
+    "model": "GC3_adjusted",
+    "beta": 0.7541510321418213,
+    "fdr": 1.6874701842837698e-06,
+    "ok": true
+   },
+   {
+    "gene": "POSTN",
+    "expected": 1,
+    "model": "base",
+    "beta": 0.5625279308512504,
+    "fdr": 0.0003493748113215689,
+    "ok": true
+   },
+   {
+    "gene": "POSTN",
+    "expected": 1,
+    "model": "GC3_adjusted",
+    "beta": 0.8810830736402802,
+    "fdr": 8.772254459346753e-07,
+    "ok": true
+   },
+   {
+    "gene": "ASPN",
+    "expected": 1,
+    "model": "base",
+    "beta": 1.8803764505083285,
+    "fdr": 4.5598600198779606e-33,
+    "ok": true
+   },
+   {
+    "gene": "ASPN",
+    "expected": 1,
+    "model": "GC3_adjusted",
+    "beta": 1.988514961975515,
+    "fdr": 1.130638794566894e-28,
+    "ok": true
+   },
+   {
+    "gene": "SFRP4",
+    "expected": 1,
+    "model": "base",
+    "beta": 2.5918001162039257,
+    "fdr": 8.86707681461127e-46,
+    "ok": true
+   },
+   {
+    "gene": "SFRP4",
+    "expected": 1,
+    "model": "GC3_adjusted",
+    "beta": 2.692448419341184,
+    "fdr": 1.7778338061832568e-39,
+    "ok": true
+   },
+   {
+    "gene": "FRZB",
+    "expected": 1,
+    "model": "base",
+    "beta": 3.049726377589889,
+    "fdr": 2.0840124597324916e-49,
+    "ok": true
+   },
+   {
+    "gene": "FRZB",
+    "expected": 1,
+    "model": "GC3_adjusted",
+    "beta": 3.0556280353205487,
+    "fdr": 1.0358682588267276e-40,
+    "ok": true
+   },
+   {
+    "gene": "MYH6",
+    "expected": -1,
+    "model": "base",
+    "beta": -1.9719528249759797,
+    "fdr": 1.9155397674084886e-40,
+    "ok": true
+   },
+   {
+    "gene": "MYH6",
+    "expected": -1,
+    "model": "GC3_adjusted",
+    "beta": -1.8843472530307883,
+    "fdr": 8.871692651101934e-31,
+    "ok": true
+   }
+  ]
+ },
+ "C2": {
+  "retention": {
+   "SCP3342_HFpEF": {
+    "retention": [
+     0.939,
+     0.982,
+     1.11,
+     0.97,
+     1.062
+    ],
+    "median": 0.9820320333817392,
+    "n_celltypes": 5
+   },
+   "GSE290367_DCM": {
+    "retention": [
+     1.003,
+     0.531,
+     0.785
+    ],
+    "median": 0.7845542460201016,
+    "n_celltypes": 3
+   }
+  },
+  "G4": [
+   {
+    "dataset": "GSE290367_Resident_DCM",
+    "beta": -1.1739367115234418,
+    "ci_lo": -1.9566251164873818,
+    "ci_hi": -0.3912483065595017,
+    "p": 0.003657903977772568
+   },
+   {
+    "dataset": "MAGNet_exclOverlap_DCM",
+    "beta": -1.0167477284579398,
+    "ci_lo": -1.3385724813278363,
+    "ci_hi": -0.6949229755880433,
+    "p": 2.3232205405210656e-09
+   }
+  ],
+  "PASS": true,
+  "rule": "median retention >=0.5 in both datasets AND G4 beta<0,P<0.05 in GSE Resident DCM and MAGNet exclOverlap DCM"
+ },
+ "K1": {
+  "retention": {
+   "SCP3342_HFpEF": {
+    "retention": [
+     0.999,
+     1.002,
+     0.998,
+     1.014,
+     1.0
+    ],
+    "median": 0.9996909927281524,
+    "n_celltypes": 5
+   },
+   "GSE290367_DCM": {
+    "retention": [
+     1.199,
+     1.56,
+     0.756
+    ],
+    "median": 1.1986509222193016,
+    "n_celltypes": 3
+   }
+  },
+  "G4": [
+   {
+    "dataset": "GSE290367_Resident_DCM",
+    "beta": -1.0670375616461194,
+    "ci_lo": -1.8122461621764852,
+    "ci_hi": -0.32182896111575354,
+    "p": 0.005445028468520245
+   },
+   {
+    "dataset": "MAGNet_exclOverlap_DCM",
+    "beta": -0.8971525059111988,
+    "ci_lo": -1.1847852129935368,
+    "ci_hi": -0.6095197988288608,
+    "p": 3.5695383463585486e-09
+   }
+  ],
+  "PASS": true,
+  "rule": "median retention >=0.5 in both datasets AND G4 beta<0,P<0.05 in GSE Resident DCM and MAGNet exclOverlap DCM"
+ },
+ "CK_sensitivity": {
+  "retention": {
+   "SCP3342_HFpEF": {
+    "retention": [
+     0.94,
+     0.979,
+     1.123,
+     0.963,
+     1.063
+    ],
+    "median": 0.9791183388958037,
+    "n_celltypes": 5
+   },
+   "GSE290367_DCM": {
+    "retention": [
+     1.127,
+     1.056,
+     0.544
+    ],
+    "median": 1.0564831053718,
+    "n_celltypes": 3
+   }
+  },
+  "G4": [
+   {
+    "dataset": "GSE290367_Resident_DCM",
+    "beta": -1.0595956753066793,
+    "ci_lo": -1.8124433840811667,
+    "ci_hi": -0.30674796653219194,
+    "p": 0.0062657588446464645
+   },
+   {
+    "dataset": "MAGNet_exclOverlap_DCM",
+    "beta": -0.9937973098425912,
+    "ci_lo": -1.3117211540408482,
+    "ci_hi": -0.6758734656443341,
+    "p": 3.337874776521193e-09
+   }
+  ],
+  "PASS": null,
+  "rule": "median retention >=0.5 in both datasets AND G4 beta<0,P<0.05 in GSE Resident DCM and MAGNet exclOverlap DCM"
+ },
+ "coverage_last": {
+  "GC3": 3,
+  "GCR": 8,
+  "MORN": 6,
+  "EVE": 3,
+  "CAMP": 6,
+  "G4": 14
+ }
+}
