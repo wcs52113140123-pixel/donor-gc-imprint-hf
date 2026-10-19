@@ -10,7 +10,10 @@ Code, frozen analysis plans, gene sets, result tables and a correction tool for:
 | `02_code/` | `pbtools_v11.py` (shared pseudobulk/model utilities); `v1.2/` in vitro GC reference (`steroid_reference.R`), tests G1 and G2–G5; `v1.3/` tests C, K, A, post hoc identifiability and revision analyses, de-duplicated substate rerun; `figures/` figure script; `reproducibility/` make-based pipeline (`Makefile`, `run_all.sh`, `repro_bundle.tgz` with wrapped upstream scripts). |
 | `03_gc_tools/` | `gc_tools.py` / `gc_tools.R`: `gc_flag`, `gc_score`, `gc_collinearity`, `gc_adjusted_de`; `gc_gene_classification_all.csv` (13,368 genes). |
 | `04_results/` | Result tables underlying the main text and figures (see manuscript Supplemental Tables S1–S14). |
+| `figures_v06/` | v0.6 figure scripts (all text >=10 pt; same inputs and numbers as v0.5); see `figures_v06/README.md`. |
 | `figures_v05/` | v0.5 figure scripts (`fig1.py`–`fig7.py`, `ci.py`, `figS1.py`), shared style `jbts_style.py`, frozen input bundles in `inputs/` (including the per-donor bundle `figure_inputs_v05_perdonor.tar.gz`) and `reproduction_check.csv`; see `figures_v05/README.md`. |
+
+v0.6 additions (Git tag v0.6; the Zenodo archive 10.5281/zenodo.23469794 is v0.5.1): `figures_v06/` re-lays out the figures with all text at least 10 pt; inputs, statistics and printed numbers are unchanged.
 
 v0.5 additions: `figures_v05/` regenerates the 7 main figures, the Central Illustration and Supplemental Figure S1 of the v0.5 manuscript from frozen inputs; only absolute paths were changed (`figures_v05/PATH_PATCH.diff`). The input bundles contain derived tables and per-donor scores; no count matrices or third-party clinical tables are redistributed (Figure 3H needs one clinical table from the supplement of Hahn et al. 2021, which users obtain from the original publication; see `PUBLIC_RELEASE_NOTES.md`). Earlier figure scripts (`02_code/figures/`) are kept for the v0.4 figures.
 
