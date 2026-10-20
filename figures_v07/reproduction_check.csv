@@ -1,0 +1,10 @@
+script,output,exit_code,registry_identical_to_submitted,pct_pixels_differing,min_font_audit
+fig1.py,Figure_1.tif,0,True,0.0,[]
+fig2.py,Figure_2.tif,0,True,0.0,[]
+fig3.py,Figure_3.tif,0,True,0.697,[]
+fig4.py,Figure_4.tif,0,True,0.569,[]
+fig5.py,Figure_5.tif,0,True,1.005,[]
+fig6.py,Figure_6.tif,0,True,0.0,[]
+fig7.py,Figure_7.tif,0,True,1.268,[]
+ci.py,Central_Illustration.tif,0,True,1.09,[]
+figS1.py,Supplemental_Figure_S1.tif,0,True,0.0,[]

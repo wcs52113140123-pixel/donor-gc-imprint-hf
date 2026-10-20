@@ -10,8 +10,11 @@ Code, frozen analysis plans, gene sets, result tables and a correction tool for:
 | `02_code/` | `pbtools_v11.py` (shared pseudobulk/model utilities); `v1.2/` in vitro GC reference (`steroid_reference.R`), tests G1 and G2–G5; `v1.3/` tests C, K, A, post hoc identifiability and revision analyses, de-duplicated substate rerun; `figures/` figure script; `reproducibility/` make-based pipeline (`Makefile`, `run_all.sh`, `repro_bundle.tgz` with wrapped upstream scripts). |
 | `03_gc_tools/` | `gc_tools.py` / `gc_tools.R`: `gc_flag`, `gc_score`, `gc_collinearity`, `gc_adjusted_de`; `gc_gene_classification_all.csv` (13,368 genes). |
 | `04_results/` | Result tables underlying the main text and figures (see manuscript Supplemental Tables S1–S14). |
+| `figures_v07/` | v0.7 figure scripts (plain-language labels; new Figure 1F-G donor age and sex); see `figures_v07/README.md`, which also maps manuscript test names to plan codes. |
 | `figures_v06/` | v0.6 figure scripts (all text >=10 pt; same inputs and numbers as v0.5); see `figures_v06/README.md`. |
 | `figures_v05/` | v0.5 figure scripts (`fig1.py`–`fig7.py`, `ci.py`, `figS1.py`), shared style `jbts_style.py`, frozen input bundles in `inputs/` (including the per-donor bundle `figure_inputs_v05_perdonor.tar.gz`) and `reproduction_check.csv`; see `figures_v05/README.md`. |
+
+v0.7 additions (Git tag v0.7): `figures_v07/` replaces internal test codes and plan versions in the figures with plain names (mapping in `figures_v07/README.md`) and adds donor age and sex panels to Figure 1; numbers unchanged.
 
 v0.6 additions (Git tag v0.6; the Zenodo archive 10.5281/zenodo.23469794 is v0.5.1): `figures_v06/` re-lays out the figures with all text at least 10 pt; inputs, statistics and printed numbers are unchanged.
 
