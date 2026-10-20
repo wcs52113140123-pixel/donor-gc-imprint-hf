@@ -2,6 +2,8 @@
 
 v0.7 revises figure wording only. Internal plan codes, version numbers and hashes are replaced by plain test names, and planned tests are reported as met or not met. Figure 1 swaps its plan-history and test-outcome panels for donor age (F) and sex composition (G). Data, statistics and printed numbers are unchanged from v0.6; all text is at least 10 pt.
 
+v0.7.1 (tag v0.7.1): Figure 1A flowchart redrawn on one grid (same content); panels B-G unchanged.
+
 ## Run
 
 Inputs are the frozen bundles in `../figures_v05/inputs/` (override with `JBTS_INPUTS`). Run each script from an empty working directory:

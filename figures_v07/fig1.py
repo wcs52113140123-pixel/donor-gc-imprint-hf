@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """Figure 1 (JACC: BTS v0.7). Study design: an in vitro glucocorticoid reference applied to
 heart failure cohorts with donor controls.  183 mm wide (height set in code, <=240 mm), 7 panels (A-G);
-every text element >=10 pt.  v0.7: reader-facing content only (analysis-plan history and decision-test
+every text element >=10 pt.  v0.7b: panel A redesigned on one grid (FIG1_A_VARIANT=1|2).  v0.7: reader-facing content only (analysis-plan history and decision-test
 outcome panels removed; plan tags removed from E); new F (donor age) and G (sex composition) from the
 per-donor bundle.
 
@@ -190,175 +190,235 @@ def fits(x0, s, right, **kw):
     assert x0 + tw(s, FS_S, **kw) <= right + 1e-6, (s, round(x0 + tw(s, FS_S, **kw) - right, 2))
 
 
-# ======================================================================= A  design schematic
+# ======================================================================= A  design schematic (v0.7b: one grid)
+# Rows: context strip | inputs (in vitro, hearts) | 4 equal step cards | outcomes.  One card style (rounded,
+# thin mid-gray border, white fill); step cards share a dark header band with a white number badge; chips
+# (panels showing each step) bottom-right; uniform 1.2-pt solid arrows, orthogonal, no crossings.
+A_VARIANT = int(os.environ.get("FIG1_A_VARIANT", "1"))
 cA = box(0, Y_A, W, A_H)
 header(cA, "A", "Study design and analysis logic")
 a = canvas(cA)
-TOP0 = 7.6; L1H, L2H = 23.0, 16.0
-L2_0 = TOP0 + L1H + 2.0
-R3 = L2_0 + L2H + 7.0; R3H = A_H - R3 - 0.4
-LANE_R = 126.4
-a.add_patch(FancyBboxPatch((0.0, TOP0 - 1.0), W, L2_0 + L2H - TOP0 + 2.0, boxstyle="round,pad=0,rounding_size=1.6",
-                           fc="#F2F2F2", ec="none", zorder=0))
-a.add_patch(FancyBboxPatch((0.0, R3 - 0.6), W, R3H + 0.9, boxstyle="round,pad=0,rounding_size=1.6",
-                           fc="#F2F2F2", ec="none", zorder=0))
-# --- context (not a numbered step): donor controls
-X1, W1 = 0.8, 49.6
-a.add_patch(FancyBboxPatch((X1, TOP0), W1, L1H, boxstyle="round,pad=0,rounding_size=1.0", fc="#E3E3E3", ec="none",
+BORDER, BAND, CTX = "#8C8C8C", "#3A3A3A", "#EDEDED"
+PADX, PIT = 1.2, 4.2                                  # inner padding, 10-pt line pitch (mm)
+CW, GAP = 42.75, 4.0                                  # step-card width, gap (4 cards + 3 gaps = 183 mm)
+SX = [i * (CW + GAP) for i in range(4)]
+assert abs(SX[-1] + CW - W) < 1e-6
+Y_CTX, H_CTX = 6.2, 9.6
+Y_IN, H_IN = Y_CTX + H_CTX + 2.2, 10.0
+Y_ST, H_ST = Y_IN + H_IN + 3.8, 32.0
+Y_OUT = Y_ST + H_ST + 4.4
+H_OUT = 10.2
+assert Y_OUT + H_OUT <= A_H - 0.15, Y_OUT + H_OUT
+BAND_H = 5.4
+
+
+def card(x, y, w, h, ls="-"):
+    p = FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0,rounding_size=1.2", fc="white", ec=BORDER, lw=0.6,
+                       ls=ls, zorder=2)
+    a.add_patch(p)
+    return p
+
+
+def arrowA(x0, y0, x1, y1):
+    a.annotate("", xy=(x1, y1), xytext=(x0, y0), arrowprops=dict(arrowstyle="-|>", color="#444444", lw=1.2,
+               mutation_scale=7.5, shrinkA=0, shrinkB=0, joinstyle="miter"), zorder=6)
+
+
+def polyarrow(pts):
+    """Orthogonal arrow through pts (mm); head on the last segment."""
+    xs_, ys_ = zip(*pts[:-1])
+    a.plot(list(xs_) + [pts[-2][0]], list(ys_) + [pts[-2][1]], color="#444444", lw=1.2, solid_joinstyle="miter",
+           solid_capstyle="butt", zorder=6)
+    arrowA(*pts[-2], *pts[-1])
+
+
+def step_card(i, title, ls="-", accent=None):
+    x, y = SX[i], Y_ST
+    p = card(x, y, CW, H_ST, ls=ls)
+    band = Rectangle((x, y), CW, BAND_H, fc=BAND, ec="none", zorder=3)
+    a.add_patch(band); band.set_clip_path(p)
+    if accent:
+        a.add_patch(Rectangle((x + 0.3, y + BAND_H), CW - 0.6, 0.7, fc=accent, ec="none", zorder=3))
+    a.add_patch(Circle((x + PADX + 1.9, y + BAND_H / 2), 1.85, fc="white", ec="none", zorder=4))
+    a.text(x + PADX + 1.9, y + BAND_H / 2 + 0.05, str(i + 1), color=BAND, fontsize=FS_S, fontweight="bold",
+           ha="center", va="center", zorder=5)
+    a.text(x + PADX + 4.9, y + BAND_H / 2 + 0.05, title, color="white", fontsize=FS_S, fontweight="bold",
+           ha="left", va="center", zorder=5)
+    fits(x + PADX + 4.9, title, x + CW - PADX, weight="bold")
+    return x
+
+
+def body_y(k):                                        # centre of body line k (0-based) in a step card
+    return Y_ST + BAND_H + 3.0 + k * PIT
+
+
+def body_lines(x, lines, k0=0, **kw):
+    for j, s in enumerate(lines):
+        t8(a, x + PADX, body_y(k0 + j), s, zorder=5, **kw)
+        fits(x + PADX, s, x + CW - PADX, **{k_.replace("font", ""): v for k_, v in kw.items() if k_.startswith("font")})
+    return k0 + len(lines)
+
+
+CHIP_Y = body_y(5)                                   # 6th body line, bottom-right
+assert CHIP_Y + 2.0 <= Y_ST + H_ST - 0.5
+
+
+def chips(x_right, y, labels):
+    xr_ = x_right - 1.0; spans = []
+    for s in labels[::-1]:
+        x0_, x1_ = chip(a, xr_, y, s, ha="right"); spans.append((x0_, x1_)); xr_ = x0_ - 0.7
+    return min(s_[0] for s_ in spans)
+
+
+# --- 1. context strip (full width, light gray)
+a.add_patch(FancyBboxPatch((0.0, Y_CTX), W, H_CTX, boxstyle="round,pad=0,rounding_size=1.2", fc=CTX, ec="none",
                            zorder=1))
-t8(a, X1 + 1.4, TOP0 + 2.7, "Donor controls", fontweight="bold")
-t8(a, X1 + 1.4 + tw("Donor controls", FS_S, "bold") + 1.6, TOP0 + 2.7, "(background)", fontstyle="italic",
-   color="#444444")
-fits(X1 + 3.0 + tw("Donor controls", FS_S, "bold"), "(background)", X1 + W1 - 0.5, style="italic")
-bg_lines = wrap("ICU management often includes corticosteroids (refs 10–12); exposure not recorded in any cohort",
-                W1 - 2.8)
-for i, s in enumerate(bg_lines):
-    t8(a, X1 + 1.4, TOP0 + 2.7 + (i + 1) * LN, s)
-assert TOP0 + 2.7 + len(bg_lines) * LN + 2.3 <= TOP0 + L1H, len(bg_lines)
-# --- hearts
-hx_c = X1 + W1 + 6.4; hx_f = hx_c + 11.6; hy = TOP0 + 6.2
-heart(a, hx_c, hy, 7.0, CONTROL)
-heart(a, hx_f, hy, 7.0, None, stripes=[COHORT[k] for k in ["SCP3342", "Hahn", "GSE290367", "MAGNet"]])
-a.plot([X1 + W1, hx_c - 3.8], [hy, hy], ls=(0, (1, 1.2)), color="#7F7F7F", lw=0.8, zorder=2)   # context, no arrow
+hy = Y_CTX + H_CTX / 2
+hx_c, hx_f = 4.6, 15.8
+heart(a, hx_c, hy, 6.4, CONTROL)
+heart(a, hx_f, hy, 6.4, None, stripes=[COHORT[k] for k in ["SCP3342", "Hahn", "GSE290367", "MAGNet"]])
 t8(a, (hx_c + hx_f) / 2, hy + 0.2, "vs", ha="center", color="#555555")
-t8(a, hx_c, TOP0 + 16.6, "Donor\ncontrol", ha="center", linespacing=1.0)
-t8(a, hx_f, TOP0 + 16.6, "Failing\nheart", ha="center", linespacing=1.0)
-assert hx_c - tw("control") / 2 > X1 + W1 + 0.3 and hx_f - hx_c > (tw("control") + tw("Failing")) / 2 + 0.8
-X2 = hx_f + tw("Failing") / 2 + 2.6; W2 = LANE_R - X2
-arrow(a, hx_f + 3.8, hy, X2, hy)
-# --- cohorts box
-rbox(a, X2, TOP0, W2, L1H)
-t8(a, X2 + 1.4, TOP0 + 2.7, "Transcriptomes", fontweight="bold")
-ca = X2 + 1.4; cb = ca + 2.7 + tw("Hahn biopsy") + 2.2
-t8(a, ca, TOP0 + 2.7 + LN, "HFpEF", color="#555555"); t8(a, cb, TOP0 + 2.7 + LN, "DCM", color="#555555")
-for j, (coh, name, xx) in enumerate([("SCP3342", "SCP3342", ca), ("Hahn", "Hahn biopsy", ca),
-                                     ("GSE290367", "GSE290367", cb), ("MAGNet", "MAGNet", cb)]):
-    yy = TOP0 + 2.7 + (2 + j % 2) * LN
-    mk(a, xx + 1.1, yy, coh); t8(a, xx + 2.7, yy, name)
-fits(cb + 2.7, "GSE290367", X2 + W2 - 0.4)
-yy = TOP0 + 2.7 + 4 * LN + 0.6
-a.plot([X2 + 1.2, X2 + W2 - 1.2], [yy - 2.3, yy - 2.3], color="#BDBDBD", lw=0.5, zorder=2)
-mk(a, ca + 1.1, yy, "GTEx"); t8(a, ca + 2.7, yy, "GTEx v11 (ventilator proxy)")
-fits(ca + 2.7, "GTEx v11 (ventilator proxy)", X2 + W2 - 0.4)
-assert yy + 2.0 <= TOP0 + L1H
-# --- step 1: in vitro reference (lane 2)
-WI = 40.0
-rbox(a, X1, L2_0, WI, L2H)
-num(a, X1 + 2.7, L2_0 + 2.8, 1)
-t8(a, X1 + 5.4, L2_0 + 2.8, "4 in vitro datasets", fontweight="bold")
-fits(X1 + 5.4, "4 in vitro datasets", X1 + WI - 0.4, weight="bold")
-for i in range(4):
-    cx = X1 + 3.4 + i * 4.8; cy = L2_0 + 7.8
-    a.add_patch(Circle((cx, cy), 2.0, fc="white", ec=TEXT, lw=0.6, zorder=3))
-    for dx, dy in [(-0.65, -0.45), (0.6, -0.6), (0.0, 0.65)]:
-        a.add_patch(Circle((cx + dx, cy + dy), 0.45, fc=GC_CLASS["induced"], ec="none", zorder=4))
-t8(a, X1 + 1.4, L2_0 + 12.6, "GC vs vehicle")
-# meta-analysis
-XG = X1 + WI + 4.0 + tw("Random-effects") + 1.0
-fx = (X1 + WI + XG) / 2; fy = L2_0 + 1.6
-a.add_patch(Polygon([[fx - 3.0, fy], [fx + 3.0, fy], [fx + 0.8, fy + 3.2], [fx + 0.8, fy + 5.0], [fx - 0.8, fy + 5.0],
-                     [fx - 0.8, fy + 3.2]], closed=True, fc="#DADADA", ec=TEXT, lw=0.6, zorder=3))
-t8(a, fx, L2_0 + 11.6, "Random-effects\nmeta-analysis", ha="center", linespacing=1.0)
-arrow(a, X1 + WI, L2_0 + 4.0, fx - 2.8, L2_0 + 4.0)
-arrow(a, fx + 2.8, L2_0 + 4.0, XG, L2_0 + 4.0)
-# genes box
-WG = LANE_R - XG
-rbox(a, XG, L2_0, WG, L2H)
-t8(a, XG + 1.4, L2_0 + 2.8, "13,368 genes", fontweight="bold")
-c6 = chip(a, XG + WG - 1.0, L2_0 + 2.9, "Fig 6", ha="right")
-c2 = chip(a, c6[0] - 0.8, L2_0 + 2.9, "Fig 2", ha="right")
-assert XG + 1.4 + tw("13,368 genes", FS_S, "bold") < c2[0] - 0.5
-reg("A", "13,368 genes", 13368, "S5_GC_classification", "row count", "yes")
+XT = hx_f + 4.6
+lead = "Donor controls:"
+ctx_text = "ICU management often includes corticosteroids (refs 10–12); exposure not recorded in any cohort"
+wl = tw(lead, FS_S, "bold") + 1.8
+words, l1, l2 = ctx_text.split(), "", ""
+for w_ in words:
+    if not l2 and tw((l1 + " " + w_).strip()) <= W - 3.5 - XT - wl:
+        l1 = (l1 + " " + w_).strip()
+    else:
+        l2 = (l2 + " " + w_).strip()
+assert tw(l2) <= W - 3.5 - XT, l2
+t8(a, XT, hy - PIT / 2, lead, fontweight="bold", zorder=5)
+t8(a, XT + wl, hy - PIT / 2, l1, zorder=5)
+t8(a, XT, hy + PIT / 2, l2, zorder=5)
+
+# --- 2. inputs: in vitro datasets | hearts
+lead_iv = "4 in vitro datasets:"
+iv_l2 = "human monocytes/macrophages"
+WIV = max(tw(lead_iv, FS_S, "bold") + 1.2 + tw("GC vs vehicle"), tw(iv_l2)) + 2 * PADX + 0.4
+card(0.0, Y_IN, WIV, H_IN)
+y1_, y2_ = Y_IN + H_IN / 2 - PIT / 2, Y_IN + H_IN / 2 + PIT / 2
+t8(a, PADX, y1_, lead_iv, fontweight="bold", zorder=5)
+t8(a, PADX + tw(lead_iv, FS_S, "bold") + 1.2, y1_, "GC vs vehicle", zorder=5)
+t8(a, PADX, y2_, iv_l2, zorder=5)
+XH = WIV + GAP; WH = W - XH
+card(XH, Y_IN, WH, H_IN)
+t8(a, XH + PADX, y1_, "Hearts", fontweight="bold", zorder=5)
+c_lab = XH + PADX + tw("Hearts", FS_S, "bold") + 3.0
+c1 = c_lab + max(tw("HFpEF"), tw("DCM")) + 1.6
+c2 = c1 + 3.0 + max(tw("SCP3342"), tw("GSE290367")) + 2.6
+c3 = c2 + 3.0 + max(tw("Hahn biopsy"), tw("MAGNet")) + 4.0
+for yy_, grp, (k1, n1), (k2, n2) in [(y1_, "HFpEF", ("SCP3342", "SCP3342"), ("Hahn", "Hahn biopsy")),
+                                     (y2_, "DCM", ("GSE290367", "GSE290367"), ("MAGNet", "MAGNet"))]:
+    t8(a, c_lab, yy_, grp, color="#555555", zorder=5)
+    mk(a, c1 + 1.1, yy_, k1, z=5); t8(a, c1 + 3.0, yy_, n1, zorder=5)
+    mk(a, c2 + 1.1, yy_, k2, z=5); t8(a, c2 + 3.0, yy_, n2, zorder=5)
+a.plot([c3 - 2.0, c3 - 2.0], [Y_IN + 1.6, Y_IN + H_IN - 1.6], color="#D0D0D0", lw=0.6, zorder=4)
+mk(a, c3 + 1.1, y1_, "GTEx", z=5); t8(a, c3 + 3.0, y1_, "GTEx v11", zorder=5)
+t8(a, c3 + 3.0, y2_, "(ventilator proxy)", zorder=5)
+fits(c3 + 3.0, "(ventilator proxy)", W - PADX)
+# inputs -> steps 1 and 2
+arrowA(SX[0] + CW / 2, Y_IN + H_IN, SX[0] + CW / 2, Y_ST)
+assert XH + 2.0 < SX[1] + CW / 2
+arrowA(SX[1] + CW / 2, Y_IN + H_IN, SX[1] + CW / 2, Y_ST)
+
+# --- 3. analysis row: 4 equal step cards
+x = step_card(0, "GC reference", accent=GC_CLASS["induced"])
+k = body_lines(x, ["Random-effects", "meta-analysis"])
+t8(a, x + PADX, body_y(k), "13,368 genes classified", fontweight="bold", zorder=5)
+fits(x + PADX, "13,368 genes classified", x + CW - PADX, weight="bold")
+SW = 2.0
 cls_items = [("induced", "Induced"), ("repressed", "Repressed"), ("insensitive", "Insensitive"),
              ("ambiguous", "Ambiguous")]
-colw2 = 3.3 + max(tw(l) for _, l in cls_items[::2]) + 2.4
-for i, (k, lab) in enumerate(cls_items):
-    xx = XG + 1.4 + (i % 2) * colw2; yy = L2_0 + 7.6 + (i // 2) * LN
-    a.add_patch(Rectangle((xx, yy - 1.3), 2.6, 2.6, fc=GC_CLASS[k], ec=AMBIGUOUS_EDGE if k == "ambiguous" else "none",
-                          lw=0.6, zorder=3))
-    t8(a, xx + 3.3, yy, lab)
-    fits(xx + 3.3, lab, XG + WG - 0.4)
+colx = [x + 1.0, x + 1.0 + SW + 0.5 + max(tw("Induced"), tw("Insensitive")) + 1.8]
+for j, (kk, lab) in enumerate(cls_items):
+    xx_ = colx[j % 2]; yy_ = body_y(k + 1 + j // 2)
+    a.add_patch(Rectangle((xx_, yy_ - SW / 2), SW, SW, fc=GC_CLASS[kk], lw=0.6, zorder=5,
+                          ec=AMBIGUOUS_EDGE if kk == "ambiguous" else "none"))
+    t8(a, xx_ + SW + 0.5, yy_, lab, zorder=5)
+    assert xx_ + SW + 0.5 + tw(lab) <= x + CW - 0.8, lab
+chips(x + CW, CHIP_Y, ["Fig 2", "Fig 6"])
+assert body_y(k + 2) + PIT <= CHIP_Y + 1e-6
 reg("A", "4 in vitro datasets", 4, "S2_datasets", "rows with role == 'in vitro GC reference'", "yes")
-# --- step 2: scores (spans both lanes)
-X3 = LANE_R + 5.0; W3 = W - 0.8 - X3; H3 = L2_0 + L2H - TOP0
-arrow(a, LANE_R, hy, X3, hy)
-arrow(a, LANE_R, L2_0 + 4.0, X3, L2_0 + 4.0)
-rbox(a, X3, TOP0, W3, H3)
-num(a, X3 + 2.7, TOP0 + 2.8, 2)
-t8(a, X3 + 5.4, TOP0 + 2.8, "Scores", fontweight="bold")
-sc_rows = [("GC score", dict(fontweight="bold")), ("FKBP5, TSC22D3, ZBTB16", dict(fontstyle="italic")),
-           ("8-gene GC response", {}), ("Circadian, cAMP", {}), ("Macrophage modules", {})]
-dys = [8.4, 8.4 + LN, 8.4 + 2 * LN + 1.6, 8.4 + 3 * LN + 2.6, 8.4 + 4 * LN + 3.8]
-for (s, kw), dy in zip(sc_rows, dys):
-    t8(a, X3 + 1.4, TOP0 + dy, s, **kw)
-    fits(X3 + 1.4, s, X3 + W3 - 0.4, **{k.replace("font", ""): v for k, v in kw.items()})
-c7 = chip(a, X3 + 1.4 + tw("Macrophage modules") + 1.4, TOP0 + dys[-1], "Fig 7")
-assert c7[1] < X3 + W3 - 0.4 and TOP0 + dys[-1] + 2.2 < TOP0 + H3
-# connector: scores -> contrast (row 3)
-yc = L2_0 + L2H + 3.2
-xs = X3 + W3 / 2
-WC = 62.0; xc_in = X1 + WC / 2
-a.plot([xs, xs, xc_in], [TOP0 + H3, yc, yc], color="#555555", lw=0.9, zorder=3, solid_joinstyle="miter")
-arrow(a, xc_in, yc, xc_in, R3)
-# --- step 3: contrast
-rbox(a, X1, R3, WC, R3H)
-num(a, X1 + 2.7, R3 + 2.8, 3)
-t8(a, X1 + 5.4, R3 + 2.8, "Contrast", fontweight="bold")
-subw = (WC - 3.6) / 2
-for j, (txt, fig_) in enumerate([("Control minus case, per cohort and cell type", "Fig 3"),
-                                 ("Adjusted for circadian or cAMP score", "Fig 4")]):
-    x0_ = X1 + 1.4 + j * (subw + 0.8)
-    ls_ = wrap(txt, subw)
-    for i, s in enumerate(ls_):
-        t8(a, x0_, R3 + 2.8 + (i + 1) * LN, s)
-    chip(a, x0_, R3 + 2.8 + (len(ls_) + 1) * LN + 0.3, fig_)
-    assert R3 + 2.8 + (len(ls_) + 1) * LN + 0.3 + 2.0 <= R3 + R3H, (txt, ls_)
-# --- step 4: identifiability gate (dashed: added post hoc)
-gw, gh = 14.6, 10.2
-gx = X1 + WC + 3.6 + gw; gy = R3 + 10.3
-arrow(a, X1 + WC, gy, gx - gw, gy)
-a.add_patch(Polygon([[gx - gw, gy], [gx, gy - gh], [gx + gw, gy], [gx, gy + gh]], closed=True, fc="white", ec=TEXT,
-                    lw=0.8, ls=(0, (2.2, 1.2)), zorder=3))
-num(a, gx, gy - 5.2, 4)
-t8(a, gx, gy + 0.9, "Identifiable?", ha="center", fontweight="bold", zorder=5)
-assert tw("Identifiable?", FS_S, "bold") / 2 < gw * (1 - 2.4 / gh)
-# yes / no
-XY = gx + gw + 3.2; WY = 33.0
-XN = XY + WY + 2.6; WN = W - 0.8 - XN
-arrow(a, gx + gw, gy, XY, gy)
-YH = R3H - 3.6                                     # Yes box shortened: the No route runs underneath
-rbox(a, XY, R3, WY, YH, ec=TEXT)
-t8(a, XY + 1.2, R3 + 2.8, "Yes", fontweight="bold")
-ly = wrap("adjust for GC score; audit genes", WY - 2.4)
-for i, s in enumerate(ly):
-    t8(a, XY + 1.2, R3 + 2.8 + (i + 1) * LN, s)
-chip(a, XY + 1.2, R3 + 2.8 + (len(ly) + 1) * LN + 0.3, "Fig 5E–I")
-assert R3 + 2.8 + (len(ly) + 1) * LN + 0.3 + 2.0 <= R3 + YH
-yno = R3 + YH + 1.8
-assert gy + gh <= yno + 0.01, (gy + gh, yno)
-a.plot([gx, gx, XN - 2.4], [gy + gh, yno, yno], color="#555555", lw=0.9, zorder=3)
-arrow(a, XN - 2.6, yno, XN, yno)
-assert yno < R3 + R3H - 0.4
-rbox(a, XN, R3, WN, R3H, ec=TEXT, ls=(0, (2.2, 1.2)))
-t8(a, XN + 1.2, R3 + 2.8, "No", fontweight="bold")
-for i, s in enumerate(["report as non-identifiable", "AUC ≥0.9 or ≤0.1, or VIF ≥5"]):
-    t8(a, XN + 1.2, R3 + 2.8 + (i + 1) * LN, s); fits(XN + 1.2, s, XN + WN - 0.4)
-t8(a, XN + 1.2, R3 + 2.8 + 3 * LN + 0.3, "Illustrative; post hoc", color="#555555", fontstyle="italic")
-cn5 = chip(a, XN + WN - 1.0, R3 + 2.9, "Fig 5A–D", ha="right")
-fits(XN + 1.2, "Illustrative; post hoc", XN + WN - 0.4, style="italic")
-assert XN + 1.2 + tw("No", FS_S, "bold") < cn5[0] - 0.5
+reg("A", "13,368 genes classified", 13368, "S5_GC_classification", "row count", "yes")
+
+x = step_card(1, "Scores")
+body_lines(x, ["GC score", "8-gene GC response", "Circadian, cAMP", "Macrophage modules"])
+chips(x + CW, CHIP_Y, ["Fig 1E", "Fig 7"])
+
+x = step_card(2, "Contrast")
+k = body_lines(x, wrap("Control − case, per cohort and cell type", CW - 2 * PADX))
+k = body_lines(x, wrap("± circadian or cAMP score", CW - 2 * PADX), k)
+assert body_y(k - 1) + PIT <= CHIP_Y + 1e-6
+chips(x + CW, CHIP_Y, ["Fig 3", "Fig 4"])
+
+x = step_card(3, "Identifiable?", ls=(0, (2.4, 1.3)))
+k = body_lines(x, wrap("AUC and variance inflation of the disease term", CW - 2 * PADX))
+t8(a, x + PADX, body_y(k), "Added post hoc", fontstyle="italic", color="#555555", zorder=5)
+if A_VARIANT == 2:                                    # decision diamond in the chip slot
+    dx_, dy_ = x + CW - 4.6, CHIP_Y - 0.6
+    a.add_patch(Polygon([[dx_ - 3.4, dy_], [dx_, dy_ - 2.4], [dx_ + 3.4, dy_], [dx_, dy_ + 2.4]], closed=True,
+                        fc="white", ec=TEXT, lw=0.7, ls=(0, (1.6, 0.9)), zorder=5))
+for i in range(3):                                    # step arrows (mid-height)
+    arrowA(SX[i] + CW, Y_ST + H_ST / 2, SX[i + 1], Y_ST + H_ST / 2)
+
+# --- 4. outcome row
+yes_t1, yes_t2 = "adjust for GC score;", "audit genes"
+no_t1, no_t2 = "report as non-identifiable; illustrative, post hoc", "AUC ≥0.9 or ≤0.1, or VIF ≥5"
+if A_VARIANT == 1:        # Yes under step 4 (straight down); No under steps 2-3 (short elbow); key under step 1
+    YX, YW = SX[3], CW
+    NX, NW_ = SX[1], 2 * CW + GAP
+else:                     # grid halves: Yes under steps 3-4, No under steps 1-2 (bus to the left)
+    YX, YW = SX[2], 2 * CW + GAP
+    NX, NW_ = SX[0], 2 * CW + GAP
+oy1, oy2 = Y_OUT + H_OUT / 2 - PIT / 2, Y_OUT + H_OUT / 2 + PIT / 2
+OCHIP_Y = oy2 + 0.1
+if YW > 60:                                           # wide Yes card: one text line
+    yes_t1, yes_t2 = "adjust for GC score; audit genes", ""
+for (xo, wo, lab, t1, t2, ch) in [(YX, YW, "Yes", yes_t1, yes_t2, "Fig 5E–I"), (NX, NW_, "No", no_t1, no_t2, "Fig 5A–D")]:
+    card(xo, Y_OUT, wo, H_OUT)
+    t8(a, xo + PADX, oy1, lab, fontweight="bold", zorder=5)
+    xl_ = xo + PADX + tw(lab, FS_S, "bold") + 1.4
+    t8(a, xl_, oy1, t1, zorder=5); fits(xl_, t1, xo + wo - PADX)
+    t8(a, xo + PADX, oy2, t2, zorder=5)
+    c0_ = chips(xo + wo, OCHIP_Y, [ch])
+    assert xo + PADX + (tw(t2) if t2 else 0) < c0_ - 0.8, (lab, t2)
+ybus = Y_ST + H_ST + 2.2
+arrowA(SX[3] + CW / 2, Y_ST + H_ST, SX[3] + CW / 2, Y_OUT)                     # Yes: straight down
+if A_VARIANT == 1:
+    xs_no = SX[3] + 4.0; xe_no = SX[2] + CW - 12.0
+else:
+    xs_no = SX[3] + 4.0; xe_no = NX + NW_ - 12.0
+polyarrow([(xs_no, Y_ST + H_ST), (xs_no, ybus), (xe_no, ybus), (xe_no, Y_OUT)])
+assert xe_no < NX + NW_ - 1.0 and xe_no > NX + 1.0
+if A_VARIANT == 1:      # key for the dashed outline, in the free slot under step 1
+    kx, ky_ = SX[0] + 1.0, Y_OUT + H_OUT / 2
+    a.add_patch(FancyBboxPatch((kx, ky_ - 1.6), 5.0, 3.2, boxstyle="round,pad=0,rounding_size=0.6", fc="white",
+                               ec=BORDER, lw=0.6, ls=(0, (2.4, 1.3)), zorder=4))
+    t8(a, kx + 6.2, ky_, "Dashed: post hoc", color="#555555", zorder=5)
+    fits(kx + 6.2, "Dashed: post hoc", SX[0] + CW - 1.0)
 for s_, v_ in [("AUC ≥0.9 or ≤0.1", "0.9; 0.1"), ("VIF ≥5", 5)]:
     reg("A", s_, v_, "Manuscript v0.4 Methods (Identifiability)", "threshold as stated", "yes")
 reg("A", "refs 10–12", "10-12", "Manuscript v0.4 Introduction", "reference numbers as cited", "yes")
 SRC["1A_schematic"] = pd.DataFrame({
-    "element": ["context: donor controls", "in vitro datasets", "genes classified", "identifiability AUC threshold",
-                "identifiability VIF threshold", "GC score genes", "step-to-figure map"],
+    "element": ["context: donor controls", "input: in vitro datasets", "input: hearts", "step 1 GC reference",
+                "step 2 scores", "step 3 contrast", "step 4 identifiability (added post hoc)", "outcome: yes",
+                "outcome: no", "identifiability AUC threshold", "identifiability VIF threshold"],
     "value": ["ICU management often includes corticosteroids (refs 10-12); exposure not recorded in any cohort",
-              4, 13368, "AUC >=0.9 or <=0.1", "VIF >=5", "FKBP5, TSC22D3, ZBTB16",
-              "genes classified: Fig 2 (reference), Fig 6 (literature genes); macrophage modules: Fig 7; contrast: "
-              "Fig 3; circadian/cAMP adjustment: Fig 4; non-identifiable: Fig 5A-D; adjust and audit: Fig 5E-I"],
-    "source": ["Manuscript v0.4 Introduction", "S2_datasets", "S5_GC_classification (n rows)", "Manuscript v0.4 Methods",
-               "Manuscript v0.4 Methods", "S3_gene_sets GC_specific3", "storyboard v0.5 + lead instructions"]})
+              "4 datasets; human monocytes/macrophages; GC vs vehicle",
+              "HFpEF: SCP3342, Hahn biopsy; DCM: GSE290367, MAGNet; GTEx v11 (ventilator proxy)",
+              "random-effects meta-analysis; 13,368 genes classified (induced, repressed, insensitive, ambiguous); "
+              "Fig 2, Fig 6",
+              "GC score; 8-gene GC response; circadian; cAMP; macrophage modules; Fig 1E, Fig 7",
+              "control - case per cohort and cell type; +/- circadian or cAMP score; Fig 3, Fig 4",
+              "AUC and variance inflation of the disease term",
+              "adjust for GC score; audit genes; Fig 5E-I",
+              "report as non-identifiable; illustrative, post hoc; Fig 5A-D",
+              "AUC >=0.9 or <=0.1", "VIF >=5"],
+    "source": ["Manuscript v0.4 Introduction", "S2_datasets", "S2_datasets", "S5_GC_classification (n rows)",
+               "S3_gene_sets", "Methods", "Methods (Identifiability)", "Methods", "Methods",
+               "Manuscript v0.4 Methods", "Manuscript v0.4 Methods"]})
 
 # ======================================================================= B  cohort table
 BW_ = 125.0
